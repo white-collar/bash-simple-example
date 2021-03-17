@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Adding two values
+((sum=42+100))
+
+#Print the result
+echo $sum
+
+: '
+This script calculates
+the square of 5.
+'
+((area=5*5))
+echo "Result is $area"

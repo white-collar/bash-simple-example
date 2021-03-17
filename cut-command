@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "cutting text from input" | cut -c 1
+echo "cutting text from input" | cut -c 1,3
+echo "cutting text from input" | cut -c 1-12
+
+echo "============"
+
+cut -c 2 cities 
+cut -c 1,3 cities
+cut -c 1-5 cities | sort
+cut -c 1-5 cities | sort -r
+
+

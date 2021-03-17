@@ -1,0 +1,13 @@
+#!/bin/bash
+
+string1="A-"
+string2="Level"
+string=$string1$string2
+echo "$string is a great resource for Linux beginners."
+
+
+# another example
+Str="Learn Bash Commands in A-level"
+subStr=${Str:0:20}
+echo $subStr
+

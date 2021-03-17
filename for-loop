@@ -1,0 +1,40 @@
+#!/bin/bash
+i=0
+
+while [ $i -le 4 ]
+do
+echo Number: $i
+((i++))
+done
+
+# another example
+
+for number in 1 2 3 4 5
+do
+echo $number
+done
+
+# another example with ls
+
+for iface in $(ls)
+do
+echo $iface
+done
+
+
+# almost java 
+
+for (( counter=1; counter<=10; counter++ ))
+do
+echo -n "$counter "
+done
+
+printf "\n"
+
+#read file
+
+file="cities"
+for var in $(cat $file)
+do
+echo " $var"
+done
